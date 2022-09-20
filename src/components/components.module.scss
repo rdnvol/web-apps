@@ -1,0 +1,30 @@
+$color-title: #b68f52;
+
+
+.leftBar {
+  //border: 2px solid black;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.rightBar {
+  //border: 2px solid red;
+  grid-column-start: 4;
+  grid-column-end: 9;
+}
+
+
+
+.skill__item {
+  margin-top: 6vh;
+}
+
+.skill__title {
+  color: $color-title;
+}
+
+.logo__img {
+  border-radius: 50%;
+}
+
+

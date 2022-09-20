@@ -1,0 +1,23 @@
+.leftBar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.rightBar {
+  grid-column-start: 4;
+  grid-column-end: 9;
+}
+
+.skill__item {
+  margin-top: 6vh;
+}
+
+.skill__title {
+  color: #b68f52;
+}
+
+.logo__img {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=components.module.css.map */

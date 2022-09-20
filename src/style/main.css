@@ -1,11 +1,5 @@
-h1 {
-  font-size: large;
-}
-
-header {
-  position: relative;
-  display: flex;
-  color: aliceblue;
+body {
+  background-color: #FFFFF0;
 }
 
 /*# sourceMappingURL=main.css.map */

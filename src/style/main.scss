@@ -1,8 +1,7 @@
-h1 {
-  font-size: large;
+$color-body:#FFFFF0;
+
+body {
+  background-color: $color-body;
 }
-header {
-  position: relative;
-  display: flex;
-  color: aliceblue;
-}
+
+

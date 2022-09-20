@@ -1,0 +1,63 @@
+[
+  {
+    "id": "details",
+    "title": "Details",
+    "address": [
+      "Kyiv", "Ukraine"
+    ],
+    "phone": "+380XXXXXXXXX",
+    "email": "bitopit780@ploneix.com"
+  },
+  {
+    "id": "skills",
+    "title": "Skills",
+    "skills": [
+      {
+        "title": "Git",
+        "point": 3
+      },
+      {
+        "title": "HTML",
+        "point": 4
+      }
+    ]
+  },
+  {
+    "id": "skills",
+    "title": "Languages",
+    "skills": [
+      {
+        "title": "Ukrainian",
+        "point": 5
+      },
+      {
+        "title": "Russian",
+        "point": 5
+      },
+      {
+        "title": "English",
+        "point": 3
+      }
+    ]
+  },
+  {
+    "id": "info",
+    "title": "Education",
+    "mainInfo": "Lalala",
+    "terms": "Sec 2020  - Present"
+  },
+  {
+    "id": "info",
+    "title": "Courses",
+    "mainInfo": "lululu",
+    "terms": "Sec 2020  - Present"
+  },
+
+  {
+    "id": "profile",
+    "title": "Profile",
+    "mainInfo": "Hi, I'm Olia))",
+    "terms": "Sec 2020  - Present"
+  }
+
+]
