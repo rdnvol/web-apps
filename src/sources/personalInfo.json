@@ -3,18 +3,19 @@
     "id": "info",
     "title": "Education",
     "mainInfo": "Lalala",
+    "additionalInfo": "Lalala",
     "terms": "Sec 2020  - Present"
   },
   {
     "id": "info",
     "title": "Courses",
     "mainInfo": "lululu",
+    "additionalInfo": "Lalala",
     "terms": "Sec 2020  - Present"
   },
   {
     "id": "profile",
     "title": "Profile",
-    "mainInfo": "Hi, I'm Olia))",
-    "terms": "Sec 2020  - Present"
+    "mainInfo": "Hi, I'm Olia))"
   }
 ]

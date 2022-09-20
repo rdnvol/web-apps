@@ -2,7 +2,6 @@ import React from 'react';
 import classes from "./components.module.css";
 
 const DetailsItem = ({detail}) => {
-    console.log(detail);
     return (
         <div className={classes.skill__item}>
             <h2 className={classes.skill__title}>{detail.title}</h2>

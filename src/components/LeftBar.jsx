@@ -18,7 +18,6 @@ const LeftBar = ({skills}) => {
                         return <SkillItem key={index} skill={item}/>
                 }
             })}
-            {/*<SkillItem>*/}
         </div>
     );
 };
