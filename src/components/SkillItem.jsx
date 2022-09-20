@@ -1,16 +1,16 @@
 import React from 'react';
 import classes from './components.module.css';
 
-const SkillItem = () => {
+const SkillItem = ({skill}) => {
     return (
         <div className={classes.skill__item}>
-            <h2 className={classes.skill__title}>Title</h2>
+            <h2 className={classes.skill__title}>{skill.title}</h2>
 
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+            {/*<ul>*/}
+            {/*    <li>1</li>*/}
+            {/*    <li>2</li>*/}
+            {/*    <li>3</li>*/}
+            {/*</ul>*/}
         </div>
     );
 };

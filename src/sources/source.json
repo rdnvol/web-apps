@@ -2,11 +2,20 @@
   {
     "id": "details",
     "title": "Details",
-    "address": [
-      "Kyiv", "Ukraine"
-    ],
-    "phone": "+380XXXXXXXXX",
-    "email": "bitopit780@ploneix.com"
+    "info": [
+      {
+        "title": "address",
+        "content":["Kyiv", "Ukraine"]
+      },
+      {
+        "title": "phone",
+        "content": ["+380XXXXXXXXX"]
+      },
+      {
+        "title": "email",
+        "content": ["bitopit780@ploneix.com"]
+      }
+    ]
   },
   {
     "id": "skills",
@@ -39,25 +48,5 @@
         "point": 3
       }
     ]
-  },
-  {
-    "id": "info",
-    "title": "Education",
-    "mainInfo": "Lalala",
-    "terms": "Sec 2020  - Present"
-  },
-  {
-    "id": "info",
-    "title": "Courses",
-    "mainInfo": "lululu",
-    "terms": "Sec 2020  - Present"
-  },
-
-  {
-    "id": "profile",
-    "title": "Profile",
-    "mainInfo": "Hi, I'm Olia))",
-    "terms": "Sec 2020  - Present"
   }
-
 ]
