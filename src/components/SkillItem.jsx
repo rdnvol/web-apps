@@ -2,15 +2,20 @@ import React from 'react';
 import classes from './components.module.css';
 
 const SkillItem = ({skill}) => {
+    console.log(skill);
     return (
         <div className={classes.skill__item}>
             <h2 className={classes.skill__title}>{skill.title}</h2>
-
-            {/*<ul>*/}
-            {/*    <li>1</li>*/}
-            {/*    <li>2</li>*/}
-            {/*    <li>3</li>*/}
-            {/*</ul>*/}
+            <ul>
+                {skill.content.map(content => {
+                    return(
+                        <li>
+                            <h5>{content.title}</h5>
+                            <h6>{content.point}</h6>
+                        </li>
+                        )
+                })}
+            </ul>
         </div>
     );
 };

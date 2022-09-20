@@ -20,7 +20,7 @@
   {
     "id": "skills",
     "title": "Skills",
-    "skills": [
+    "content": [
       {
         "title": "Git",
         "point": 3
@@ -34,7 +34,7 @@
   {
     "id": "skills",
     "title": "Languages",
-    "skills": [
+    "content": [
       {
         "title": "Ukrainian",
         "point": 5
