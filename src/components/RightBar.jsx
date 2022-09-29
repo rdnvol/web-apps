@@ -15,7 +15,7 @@ const RightBar = ({info}) => {
             </div>
 
             {info.map((item, index) => {
-                console.log(item)
+                // eslint-disable-next-line default-case
                 switch(item.id)
                 {
                     case "profile":

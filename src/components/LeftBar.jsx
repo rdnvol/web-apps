@@ -13,7 +13,6 @@ const LeftBar = ({skills}) => {
                 </div>
 
             </div>
-
             {skills.map((item, index) => {
                 switch(item.id)
                 {

@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './components.module.css';
 
 const EducationItem = ({item}) => {
-
     return (
         <div className={classes.education__item}>
             <h4 className={classes.education__main__info} dangerouslySetInnerHTML={{__html:item.mainInfo.replace(/\n/g, "<br />")}}/>

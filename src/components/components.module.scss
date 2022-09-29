@@ -13,7 +13,7 @@ $color-text: #5a5a5a;
 
 .rightBar {
   grid-column-start: 4;
-  grid-column-end: 9;
+  grid-column-end: 5;
 }
 
 .skill__item {
@@ -42,6 +42,7 @@ $color-text: #5a5a5a;
   flex-direction: row;
   height: 20px;
 }
+
 .point1 {
   margin-right: 5px;
   width: 12px;
@@ -62,12 +63,40 @@ $color-text: #5a5a5a;
   margin-top: 2vh;
 }
 
-.logo__img {
+.user__img__holder {
+  height: 18vh;
+  width: 18vh;
   border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.user__img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
 }
 
 .header {
   height: 18vh;
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.position {
+  margin-top: 2vh;
+  color: #5a5a5a;
+}
+
+.profile__info {
+  color: $color-text;
+  margin-top: 2vh;
 }
 
 .education__item {

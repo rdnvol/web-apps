@@ -5,6 +5,11 @@
     "mainInfo": "Hi, I'm Olia)) I am: \r\npurposeful,\nsociable,\nresponsible,\ntrainable,\nteam work person."
   },
   {
+    "id": "profile",
+    "title": "Сourse expectations",
+    "mainInfo": "Interesting tasks and increase skills of React  \uD83D\uDE0A"
+  },
+  {
     "id": "info",
     "title": "Education",
     "educations": [
@@ -19,7 +24,6 @@
         "terms": "Sep, 2017  - Dec, 2020"
       }
     ]
-
   },
   {
     "id": "info",
