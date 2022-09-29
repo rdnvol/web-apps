@@ -10,7 +10,7 @@ const RightBar = ({info}) => {
             <div className={classes.header}>
                 <div>
                     <h2>Olia Rodionova</h2>
-                    <h4 className={classes.position}>Student KPI</h4>
+                    <h4 className={classes.position}>Student KPI KP-02</h4>
                 </div>
             </div>
 
