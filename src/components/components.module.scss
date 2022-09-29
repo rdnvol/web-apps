@@ -1,19 +1,20 @@
 $color-title: #b68f52;
+$color-gray: #e4e4e4;
+$color-text: #5a5a5a;
 
+.skill__content__text {
+  color: $color-text;
+}
 
 .leftBar {
-  //border: 2px solid black;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
 .rightBar {
-  //border: 2px solid red;
   grid-column-start: 4;
   grid-column-end: 9;
 }
-
-
 
 .skill__item {
   margin-top: 6vh;
@@ -23,8 +24,67 @@ $color-title: #b68f52;
   color: $color-title;
 }
 
+.skill__content {
+  margin-top: 2vh;
+}
+
+.point__holder {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+
+.point__holder1 {
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+.point1 {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $color-gray;
+}
+
+.point {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #010101;
+}
+
+.skill__content__title {
+  margin-top: 2vh;
+}
+
 .logo__img {
   border-radius: 50%;
+}
+
+.header {
+  height: 18vh;
+}
+
+.education__item {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+.education__main__info {
+  margin-bottom: 1vh;
+}
+
+.education__terms {
+  margin-bottom: 2vh;
+}
+
+.education__additional {
+  color: $color-text;
 }
 
 

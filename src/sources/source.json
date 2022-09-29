@@ -4,15 +4,15 @@
     "title": "Details",
     "info": [
       {
-        "title": "address",
+        "title": "Address",
         "content":["Kyiv", "Ukraine"]
       },
       {
-        "title": "phone",
+        "title": "Phone",
         "content": ["+380XXXXXXXXX"]
       },
       {
-        "title": "email",
+        "title": "Email",
         "content": ["bitopit780@ploneix.com"]
       }
     ]

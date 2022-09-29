@@ -8,11 +8,11 @@ const DetailsItem = ({detail}) => {
             <ol>
                 {detail.info.map(content => {
                     return(
-                        <li>
-                            <h5>{content.title}</h5>
+                        <li className={classes.skill__content}>
+                            <h5 className={classes.skill__content__title}>{content.title}</h5>
                             <ul>
                                 {content.content.map(item => {
-                                    return <li>{item}</li>
+                                    return <li className={classes.skill__content__text}>{item}</li>
                                 })}
                             </ul>
                             {}

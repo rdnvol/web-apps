@@ -2,12 +2,18 @@ import React from 'react';
 import classes from './components.module.css';
 import SkillItem from "./SkillItem";
 import DetailsItem from "./DetailsItem";
-// import logo from 'public/img/olia.jpg';
+import userImage from 'img/olia.jpg';
 
 const LeftBar = ({skills}) => {
     return (
         <div className={classes.leftBar}>
-            <img src="https://via.placeholder.com/150C/O https://placeholder.com/" alt="" className={classes.logo__img}/>
+            <div className={classes.header}>
+                <div className={classes.user__img__holder}>
+                    <img src={userImage} alt="" className={classes.user__img}/>
+                </div>
+
+            </div>
+
             {skills.map((item, index) => {
                 switch(item.id)
                 {

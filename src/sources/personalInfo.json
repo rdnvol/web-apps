@@ -1,21 +1,50 @@
 [
   {
+    "id": "profile",
+    "title": "Profile",
+    "mainInfo": "Hi, I'm Olia)) I am: \r\npurposeful,\nsociable,\nresponsible,\ntrainable,\nteam work person."
+  },
+  {
     "id": "info",
     "title": "Education",
-    "mainInfo": "Lalala",
-    "additionalInfo": "Lalala",
-    "terms": "Sec 2020  - Present"
+    "educations": [
+      {
+        "mainInfo": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”, The Faculty of Applied Mathematics, Computer Engineering",
+        "additionalInfo": "*(first two years ended)",
+        "terms": "Sec 2020  - Present"
+      },
+      {
+        "mainInfo": "Bogomoletz National Medical University, The first medical faculty",
+        "additionalInfo": "*(two and a half years)",
+        "terms": "Sep, 2017  - Dec, 2020"
+      }
+    ]
+
   },
   {
     "id": "info",
     "title": "Courses",
-    "mainInfo": "lululu",
-    "additionalInfo": "Lalala",
-    "terms": "Sec 2020  - Present"
-  },
-  {
-    "id": "profile",
-    "title": "Profile",
-    "mainInfo": "Hi, I'm Olia))"
+    "educations": [
+      {
+        "mainInfo": "HTML5 and CSS3",
+        "additionalInfo": "My pet projects on  https://github.com/rdnvol",
+        "terms": "Jun, 2019  - Present"
+      },
+      {
+        "mainInfo": "C# base course.",
+        "additionalInfo": "*University course\nThe course of object oriented programming based on C# language. During this course have been learned base C# with main patterns and SQL requests to SQLite.",
+        "terms": "Sep, 2020  - Dec, 2021"
+      },
+      {
+        "mainInfo": "Epam course of front-end development",
+        "additionalInfo": "The course was created by EPAM to teach students bases of:\nHTML5\nCSS3\nJS\nMy pet project on https://gitlab.com/rdnvol/fe4u-boilerplate",
+        "terms": "Jun, 2022  - Present"
+      },
+      {
+        "mainInfo": "React JS ",
+        "additionalInfo": "Introductory course on YouToube.",
+        "terms": "Aug, 2022  - Present"
+      }
+    ]
   }
 ]
